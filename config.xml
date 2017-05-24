@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<widget xmlns = "http:/www.w3.org/ns/widgets"
+  xmlns:gap = "http://phonegap.com/ns/1.0"
+  id = "com.phonegap.example1"
+  version = "1.0.0">
+  
+  <name> app1 DATOSALUMNOS </name>
+  
+   <description>
+    Aplicacion que muestra los DATOS del alumno 
+	</description>
+	
+	<author href="https://build.phonegap.com" email="jorgesarmientosuarez16@gamil.com">
+	  Jorge adrian samiento suarez 4f
+	</author>
+	
+	<!--Personaliza la applicacion y plataforma -->
+	<preference name="orientation"   value="default" />
+	<!--<preferenece name="orientation"  value="portrait" />
+	<preference name="orientation"   value="landscape" />-->
+	<preference name="target-device"  value="universal" />
+	<preference name="fullscreen"  value="true" />
+	<preference name="androi-installLocation"  value="auto" />
+	<preference name="permissions" value="INTERNET" />
+	
+	<!-- Plugins -->
+	<!-- Core plugins -->
+ <plugin name="cordova-plugin-device" spec="~1.1.4" />
+ <plugin name="cordova-plugin-vibration" spec="~2.1.3" />
+ <plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+ 
+ <plugin name="cordova-plugin-geolocation" source="npm" />
+  <!-- Third part plugins-->
+ 
+  <!--colocar icono app -->
+ 
+ <icon src="res/android/mdpi.png" />
+ 
+ </widget>
+	
